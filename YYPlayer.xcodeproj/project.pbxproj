@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6770131FD6971C00E79A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770121FD6971C00E79A07 /* AppDelegate.swift */; };
+		DC6770151FD6971C00E79A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770141FD6971C00E79A07 /* ViewController.swift */; };
+		DC6770181FD6971C00E79A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6770161FD6971C00E79A07 /* Main.storyboard */; };
+		DC67701A1FD6971C00E79A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6770191FD6971C00E79A07 /* Assets.xcassets */; };
+		DC67701D1FD6971C00E79A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC67701B1FD6971C00E79A07 /* LaunchScreen.storyboard */; };
+		DC6770281FD6971C00E79A07 /* YYPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770271FD6971C00E79A07 /* YYPlayerTests.swift */; };
+		DC6770331FD6971C00E79A07 /* YYPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770321FD6971C00E79A07 /* YYPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6770241FD6971C00E79A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6770071FD6971C00E79A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC67700E1FD6971C00E79A07;
+			remoteInfo = YYPlayer;
+		};
+		DC67702F1FD6971C00E79A07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6770071FD6971C00E79A07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC67700E1FD6971C00E79A07;
+			remoteInfo = YYPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC67700F1FD6971C00E79A07 /* YYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6770121FD6971C00E79A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC6770141FD6971C00E79A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC6770171FD6971C00E79A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC6770191FD6971C00E79A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC67701C1FD6971C00E79A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC67701E1FD6971C00E79A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6770231FD6971C00E79A07 /* YYPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6770271FD6971C00E79A07 /* YYPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPlayerTests.swift; sourceTree = "<group>"; };
+		DC6770291FD6971C00E79A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC67702E1FD6971C00E79A07 /* YYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6770321FD6971C00E79A07 /* YYPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPlayerUITests.swift; sourceTree = "<group>"; };
+		DC6770341FD6971C00E79A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC67700C1FD6971C00E79A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6770201FD6971C00E79A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC67702B1FD6971C00E79A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC6770061FD6971C00E79A07 = {
+			isa = PBXGroup;
+			children = (
+				DC6770111FD6971C00E79A07 /* YYPlayer */,
+				DC6770261FD6971C00E79A07 /* YYPlayerTests */,
+				DC6770311FD6971C00E79A07 /* YYPlayerUITests */,
+				DC6770101FD6971C00E79A07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC6770101FD6971C00E79A07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC67700F1FD6971C00E79A07 /* YYPlayer.app */,
+				DC6770231FD6971C00E79A07 /* YYPlayerTests.xctest */,
+				DC67702E1FD6971C00E79A07 /* YYPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC6770111FD6971C00E79A07 /* YYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC6770121FD6971C00E79A07 /* AppDelegate.swift */,
+				DC6770141FD6971C00E79A07 /* ViewController.swift */,
+				DC6770161FD6971C00E79A07 /* Main.storyboard */,
+				DC6770191FD6971C00E79A07 /* Assets.xcassets */,
+				DC67701B1FD6971C00E79A07 /* LaunchScreen.storyboard */,
+				DC67701E1FD6971C00E79A07 /* Info.plist */,
+			);
+			path = YYPlayer;
+			sourceTree = "<group>";
+		};
+		DC6770261FD6971C00E79A07 /* YYPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6770271FD6971C00E79A07 /* YYPlayerTests.swift */,
+				DC6770291FD6971C00E79A07 /* Info.plist */,
+			);
+			path = YYPlayerTests;
+			sourceTree = "<group>";
+		};
+		DC6770311FD6971C00E79A07 /* YYPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC6770321FD6971C00E79A07 /* YYPlayerUITests.swift */,
+				DC6770341FD6971C00E79A07 /* Info.plist */,
+			);
+			path = YYPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC67700E1FD6971C00E79A07 /* YYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6770371FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayer" */;
+			buildPhases = (
+				DC67700B1FD6971C00E79A07 /* Sources */,
+				DC67700C1FD6971C00E79A07 /* Frameworks */,
+				DC67700D1FD6971C00E79A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYPlayer;
+			productName = YYPlayer;
+			productReference = DC67700F1FD6971C00E79A07 /* YYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC6770221FD6971C00E79A07 /* YYPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC67703A1FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayerTests" */;
+			buildPhases = (
+				DC67701F1FD6971C00E79A07 /* Sources */,
+				DC6770201FD6971C00E79A07 /* Frameworks */,
+				DC6770211FD6971C00E79A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6770251FD6971C00E79A07 /* PBXTargetDependency */,
+			);
+			name = YYPlayerTests;
+			productName = YYPlayerTests;
+			productReference = DC6770231FD6971C00E79A07 /* YYPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC67702D1FD6971C00E79A07 /* YYPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC67703D1FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayerUITests" */;
+			buildPhases = (
+				DC67702A1FD6971C00E79A07 /* Sources */,
+				DC67702B1FD6971C00E79A07 /* Frameworks */,
+				DC67702C1FD6971C00E79A07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6770301FD6971C00E79A07 /* PBXTargetDependency */,
+			);
+			name = YYPlayerUITests;
+			productName = YYPlayerUITests;
+			productReference = DC67702E1FD6971C00E79A07 /* YYPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC6770071FD6971C00E79A07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "侯佳男";
+				TargetAttributes = {
+					DC67700E1FD6971C00E79A07 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC6770221FD6971C00E79A07 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC67700E1FD6971C00E79A07;
+					};
+					DC67702D1FD6971C00E79A07 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC67700E1FD6971C00E79A07;
+					};
+				};
+			};
+			buildConfigurationList = DC67700A1FD6971C00E79A07 /* Build configuration list for PBXProject "YYPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC6770061FD6971C00E79A07;
+			productRefGroup = DC6770101FD6971C00E79A07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC67700E1FD6971C00E79A07 /* YYPlayer */,
+				DC6770221FD6971C00E79A07 /* YYPlayerTests */,
+				DC67702D1FD6971C00E79A07 /* YYPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC67700D1FD6971C00E79A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC67701D1FD6971C00E79A07 /* LaunchScreen.storyboard in Resources */,
+				DC67701A1FD6971C00E79A07 /* Assets.xcassets in Resources */,
+				DC6770181FD6971C00E79A07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6770211FD6971C00E79A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC67702C1FD6971C00E79A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC67700B1FD6971C00E79A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6770151FD6971C00E79A07 /* ViewController.swift in Sources */,
+				DC6770131FD6971C00E79A07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC67701F1FD6971C00E79A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6770281FD6971C00E79A07 /* YYPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC67702A1FD6971C00E79A07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6770331FD6971C00E79A07 /* YYPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6770251FD6971C00E79A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC67700E1FD6971C00E79A07 /* YYPlayer */;
+			targetProxy = DC6770241FD6971C00E79A07 /* PBXContainerItemProxy */;
+		};
+		DC6770301FD6971C00E79A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC67700E1FD6971C00E79A07 /* YYPlayer */;
+			targetProxy = DC67702F1FD6971C00E79A07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC6770161FD6971C00E79A07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC6770171FD6971C00E79A07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC67701B1FD6971C00E79A07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC67701C1FD6971C00E79A07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC6770351FD6971C00E79A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC6770361FD6971C00E79A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC6770381FD6971C00E79A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC6770391FD6971C00E79A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC67703B1FD6971C00E79A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYPlayer.app/YYPlayer";
+			};
+			name = Debug;
+		};
+		DC67703C1FD6971C00E79A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYPlayer.app/YYPlayer";
+			};
+			name = Release;
+		};
+		DC67703E1FD6971C00E79A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYPlayer;
+			};
+			name = Debug;
+		};
+		DC67703F1FD6971C00E79A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				INFOPLIST_FILE = YYPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JN.PuXin.YYPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC67700A1FD6971C00E79A07 /* Build configuration list for PBXProject "YYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6770351FD6971C00E79A07 /* Debug */,
+				DC6770361FD6971C00E79A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6770371FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC6770381FD6971C00E79A07 /* Debug */,
+				DC6770391FD6971C00E79A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC67703A1FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC67703B1FD6971C00E79A07 /* Debug */,
+				DC67703C1FD6971C00E79A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC67703D1FD6971C00E79A07 /* Build configuration list for PBXNativeTarget "YYPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC67703E1FD6971C00E79A07 /* Debug */,
+				DC67703F1FD6971C00E79A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC6770071FD6971C00E79A07 /* Project object */;
+}
