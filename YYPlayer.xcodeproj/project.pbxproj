@@ -14,6 +14,21 @@
 		DC67701D1FD6971C00E79A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC67701B1FD6971C00E79A07 /* LaunchScreen.storyboard */; };
 		DC6770281FD6971C00E79A07 /* YYPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770271FD6971C00E79A07 /* YYPlayerTests.swift */; };
 		DC6770331FD6971C00E79A07 /* YYPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6770321FD6971C00E79A07 /* YYPlayerUITests.swift */; };
+		DC67705E1FD6973100E79A07 /* YYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67705C1FD6973100E79A07 /* YYPlayerView.swift */; };
+		DC67705F1FD6973100E79A07 /* YYPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC67705D1FD6973100E79A07 /* YYPlayerView.xib */; };
+		DC6770891FD697BC00E79A07 /* Player_back_full.png in Resources */ = {isa = PBXBuildFile; fileRef = DC67707C1FD697BB00E79A07 /* Player_back_full.png */; };
+		DC67708A1FD697BC00E79A07 /* Player_bottom_shadel.png in Resources */ = {isa = PBXBuildFile; fileRef = DC67707D1FD697BB00E79A07 /* Player_bottom_shadel.png */; };
+		DC67708B1FD697BC00E79A07 /* Player_brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = DC67707E1FD697BB00E79A07 /* Player_brightness.png */; };
+		DC67708C1FD697BC00E79A07 /* Player_center_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DC67707F1FD697BB00E79A07 /* Player_center_pause.png */; };
+		DC67708D1FD697BC00E79A07 /* Player_center_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770801FD697BB00E79A07 /* Player_center_play.png */; };
+		DC67708E1FD697BC00E79A07 /* Player_fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770811FD697BB00E79A07 /* Player_fullscreen.png */; };
+		DC67708F1FD697BC00E79A07 /* Player_lock-nor.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770821FD697BB00E79A07 /* Player_lock-nor.png */; };
+		DC6770901FD697BC00E79A07 /* Player_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770831FD697BB00E79A07 /* Player_pause.png */; };
+		DC6770911FD697BC00E79A07 /* Player_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770841FD697BB00E79A07 /* Player_play.png */; };
+		DC6770921FD697BC00E79A07 /* Player_shrinkscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770851FD697BB00E79A07 /* Player_shrinkscreen.png */; };
+		DC6770931FD697BC00E79A07 /* Player_slider.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770861FD697BB00E79A07 /* Player_slider.png */; };
+		DC6770941FD697BC00E79A07 /* Player_top_shadel.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770871FD697BB00E79A07 /* Player_top_shadel.png */; };
+		DC6770951FD697BC00E79A07 /* Player_unlock-nor.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6770881FD697BB00E79A07 /* Player_unlock-nor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		DC67702E1FD6971C00E79A07 /* YYPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6770321FD6971C00E79A07 /* YYPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPlayerUITests.swift; sourceTree = "<group>"; };
 		DC6770341FD6971C00E79A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC67705C1FD6973100E79A07 /* YYPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPlayerView.swift; sourceTree = "<group>"; };
+		DC67705D1FD6973100E79A07 /* YYPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYPlayerView.xib; sourceTree = "<group>"; };
+		DC67707C1FD697BB00E79A07 /* Player_back_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_back_full.png; sourceTree = "<group>"; };
+		DC67707D1FD697BB00E79A07 /* Player_bottom_shadel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_bottom_shadel.png; sourceTree = "<group>"; };
+		DC67707E1FD697BB00E79A07 /* Player_brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_brightness.png; sourceTree = "<group>"; };
+		DC67707F1FD697BB00E79A07 /* Player_center_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_center_pause.png; sourceTree = "<group>"; };
+		DC6770801FD697BB00E79A07 /* Player_center_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_center_play.png; sourceTree = "<group>"; };
+		DC6770811FD697BB00E79A07 /* Player_fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_fullscreen.png; sourceTree = "<group>"; };
+		DC6770821FD697BB00E79A07 /* Player_lock-nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player_lock-nor.png"; sourceTree = "<group>"; };
+		DC6770831FD697BB00E79A07 /* Player_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_pause.png; sourceTree = "<group>"; };
+		DC6770841FD697BB00E79A07 /* Player_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_play.png; sourceTree = "<group>"; };
+		DC6770851FD697BB00E79A07 /* Player_shrinkscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_shrinkscreen.png; sourceTree = "<group>"; };
+		DC6770861FD697BB00E79A07 /* Player_slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_slider.png; sourceTree = "<group>"; };
+		DC6770871FD697BB00E79A07 /* Player_top_shadel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player_top_shadel.png; sourceTree = "<group>"; };
+		DC6770881FD697BB00E79A07 /* Player_unlock-nor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player_unlock-nor.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +130,7 @@
 				DC6770121FD6971C00E79A07 /* AppDelegate.swift */,
 				DC6770141FD6971C00E79A07 /* ViewController.swift */,
 				DC6770161FD6971C00E79A07 /* Main.storyboard */,
+				DC67705B1FD6973100E79A07 /* PlayerView */,
 				DC6770191FD6971C00E79A07 /* Assets.xcassets */,
 				DC67701B1FD6971C00E79A07 /* LaunchScreen.storyboard */,
 				DC67701E1FD6971C00E79A07 /* Info.plist */,
@@ -123,6 +154,36 @@
 				DC6770341FD6971C00E79A07 /* Info.plist */,
 			);
 			path = YYPlayerUITests;
+			sourceTree = "<group>";
+		};
+		DC67705B1FD6973100E79A07 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC67707B1FD697BB00E79A07 /* PlayerSource */,
+				DC67705C1FD6973100E79A07 /* YYPlayerView.swift */,
+				DC67705D1FD6973100E79A07 /* YYPlayerView.xib */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		DC67707B1FD697BB00E79A07 /* PlayerSource */ = {
+			isa = PBXGroup;
+			children = (
+				DC67707C1FD697BB00E79A07 /* Player_back_full.png */,
+				DC67707D1FD697BB00E79A07 /* Player_bottom_shadel.png */,
+				DC67707E1FD697BB00E79A07 /* Player_brightness.png */,
+				DC67707F1FD697BB00E79A07 /* Player_center_pause.png */,
+				DC6770801FD697BB00E79A07 /* Player_center_play.png */,
+				DC6770811FD697BB00E79A07 /* Player_fullscreen.png */,
+				DC6770821FD697BB00E79A07 /* Player_lock-nor.png */,
+				DC6770831FD697BB00E79A07 /* Player_pause.png */,
+				DC6770841FD697BB00E79A07 /* Player_play.png */,
+				DC6770851FD697BB00E79A07 /* Player_shrinkscreen.png */,
+				DC6770861FD697BB00E79A07 /* Player_slider.png */,
+				DC6770871FD697BB00E79A07 /* Player_top_shadel.png */,
+				DC6770881FD697BB00E79A07 /* Player_unlock-nor.png */,
+			);
+			path = PlayerSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +293,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC67708A1FD697BC00E79A07 /* Player_bottom_shadel.png in Resources */,
+				DC6770901FD697BC00E79A07 /* Player_pause.png in Resources */,
 				DC67701D1FD6971C00E79A07 /* LaunchScreen.storyboard in Resources */,
+				DC6770911FD697BC00E79A07 /* Player_play.png in Resources */,
+				DC6770891FD697BC00E79A07 /* Player_back_full.png in Resources */,
+				DC67708E1FD697BC00E79A07 /* Player_fullscreen.png in Resources */,
 				DC67701A1FD6971C00E79A07 /* Assets.xcassets in Resources */,
+				DC6770951FD697BC00E79A07 /* Player_unlock-nor.png in Resources */,
+				DC6770941FD697BC00E79A07 /* Player_top_shadel.png in Resources */,
+				DC6770921FD697BC00E79A07 /* Player_shrinkscreen.png in Resources */,
+				DC67708C1FD697BC00E79A07 /* Player_center_pause.png in Resources */,
+				DC67708D1FD697BC00E79A07 /* Player_center_play.png in Resources */,
+				DC67708F1FD697BC00E79A07 /* Player_lock-nor.png in Resources */,
 				DC6770181FD6971C00E79A07 /* Main.storyboard in Resources */,
+				DC67705F1FD6973100E79A07 /* YYPlayerView.xib in Resources */,
+				DC67708B1FD697BC00E79A07 /* Player_brightness.png in Resources */,
+				DC6770931FD697BC00E79A07 /* Player_slider.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +336,7 @@
 			files = (
 				DC6770151FD6971C00E79A07 /* ViewController.swift in Sources */,
 				DC6770131FD6971C00E79A07 /* AppDelegate.swift in Sources */,
+				DC67705E1FD6973100E79A07 /* YYPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
