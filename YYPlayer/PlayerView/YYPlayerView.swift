@@ -89,6 +89,7 @@ class YYPlayerView: UIView {
     private var isSliderDragging: Bool = false // 是否在拖拽
     private var isFinished: Bool = false // 是否播放结束 // 可以设置播放一次之后的特别状态
     private var isPlayed: Bool = false // 是否播放过
+    private var isCanPlay: Bool = false // 是否可以播放
     
     @IBOutlet weak var topBackView: UIView! // 顶部view层
     @IBOutlet weak var screenView: UIView! // 屏幕层 承载播放界面
@@ -150,6 +151,9 @@ class YYPlayerView: UIView {
     
     // 播放暂停按钮点击状态改变
     private func updatePlayerState() {
+        if !isCanPlay {
+            return 
+        }
         if (playerInfoState != .readyToPlay) {
             print("播放错误")
             YYPlayer.share.againLoadPlayerItem()
@@ -363,7 +367,7 @@ class YYPlayerView: UIView {
                 let generator = AVAssetImageGenerator(asset: asset)
                 generator.appliesPreferredTrackTransform = true
                 var actualTime = CMTimeMake(0,600) //  CMTimeMake(a,b) a/b = 当前秒   a当前第几帧, b每秒钟多少帧
-                let time = CMTimeMakeWithSeconds(5, 30) //  CMTimeMakeWithSeconds(a,b) a当前时间,b每秒钟多少帧
+                let time = CMTimeMakeWithSeconds(1, 24) //  CMTimeMakeWithSeconds(a,b) a当前时间,b每秒钟多少帧
                 var cgImage: CGImage!
                 do{
                     cgImage = try generator.copyCGImage(at: time, actualTime: &actualTime)
@@ -382,6 +386,7 @@ class YYPlayerView: UIView {
         [weak self] currentTime, catchTime, state in
         if let weakSelf = self {
             if state == .play {
+                weakSelf.isCanPlay = true
                 if !weakSelf.isSliderDragging {
                     weakSelf.currentTimeLabel.text = String(format: "%02d:%02d", Int(currentTime.seconds) / 60, Int(currentTime.seconds) % 60)
                     weakSelf.progressSlider.value = Float(currentTime.seconds / weakSelf.totalTime)
