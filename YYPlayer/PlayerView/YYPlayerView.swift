@@ -39,7 +39,9 @@
  *  10、系统声音调节
  *  11、快进/快退
  *  12、点击屏幕隐藏/展示上下渐变层
+ *  13、获取图片第一帧
  */
+
 
 import UIKit
 import MediaPlayer
@@ -70,6 +72,11 @@ class YYPlayerView: UIView {
             
             config(url: url)
         }
+    }
+    
+    // 初始化YYPlayerView方法
+    static func loadPlayerView() -> YYPlayerView {
+        return Bundle.main.loadNibNamed("YYPlayerView", owner: self, options: nil)?.last as! YYPlayerView
     }
     
     // 设置屏幕方向时候需要的key
@@ -218,11 +225,6 @@ class YYPlayerView: UIView {
         YYPlayer.share.playerLayer.frame = bounds
     }
     
-    // 初始化YYPlayerView方法
-    static func loadPlayerView() -> YYPlayerView {
-        return Bundle.main.loadNibNamed("YYPlayerView", owner: self, options: nil)?.last as! YYPlayerView
-    }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -251,7 +253,7 @@ class YYPlayerView: UIView {
         let location = sender.location(in: view)
         let translation = sender.translation(in: view)
         let velocity = sender.velocity(in: view)
-
+        
         switch sender.state {
         case .began:
             panBegan(location: location, translation: translation, velocity: velocity)
@@ -267,7 +269,7 @@ class YYPlayerView: UIView {
         case .failed:
             break
         case .possible:
-            break 
+            break
         }
     }
     
@@ -342,7 +344,7 @@ class YYPlayerView: UIView {
     // 初始化配置
     private func config(url: URL) {
         maskImageView.isHidden = !isShowMaskImageView
-        
+        vidoeImage(url: url)
         playAndPauseButton.playState = .pause
         
         YYPlayer.share.url = url
@@ -351,6 +353,28 @@ class YYPlayerView: UIView {
         YYPlayer.share.displayLinkHandler = self.displayLinkHandler
         YYPlayer.share.playerInfo = self.playerInfo
         YYPlayer.share.playFinished = self.playFinished
+    }
+    
+    func vidoeImage(url:URL) {
+        if !maskImageView.isHidden {
+            DispatchQueue.global().async {
+                let opts = [AVURLAssetPreferPreciseDurationAndTimingKey : false]
+                let asset = AVURLAsset(url: url, options: opts)
+                let generator = AVAssetImageGenerator(asset: asset)
+                generator.appliesPreferredTrackTransform = true
+                var actualTime = CMTimeMake(0,600) //  CMTimeMake(a,b) a/b = 当前秒   a当前第几帧, b每秒钟多少帧
+                let time = CMTimeMakeWithSeconds(5, 30) //  CMTimeMakeWithSeconds(a,b) a当前时间,b每秒钟多少帧
+                var cgImage: CGImage!
+                do{
+                    cgImage = try generator.copyCGImage(at: time, actualTime: &actualTime)
+                    DispatchQueue.main.async {
+                        self.maskImageView.image = UIImage(cgImage: cgImage)
+                    }
+                }catch let error as NSError{
+                    print(error)
+                }
+            }
+        }
     }
     
     // 实时更新进度条和时间的闭包
@@ -404,7 +428,7 @@ class YYPlayerView: UIView {
         YYPlayer.share.releaseAll()
         self.removeFromSuperview()
     }
-
+    
 }
 
 // MARK: 获取当前的controller
@@ -433,7 +457,7 @@ extension YYPlayerView {
 
 // MARK: YYPlayer
 class YYPlayer: NSObject {
-
+    
     // 监听四种keyPath
     private let kPath_status = "status"
     private let kPath_loadedTimeRanges = "loadedTimeRanges"
@@ -587,7 +611,7 @@ class YYPlayer: NSObject {
             let timeRange = loadedTimeRanges?.first?.timeRangeValue  // 获取缓冲区域
             cacheTime = (timeRange?.duration)!
             guard let duration = timeRange?.duration else {
-                return 
+                return
             }
             if duration.seconds < Double(2) {
                 player.pause()
